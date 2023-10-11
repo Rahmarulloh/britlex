@@ -1,47 +1,48 @@
-.main{
-    width: 1500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 100px;
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
 }
 
-.boxes{
-    display: flex;
-    gap: 150px;
+.boxes {
+  gap: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.boxes .box{
-
-    width: 350px;
+.boxes .box {
+  width: 350px;
 }
 
-.box span{
-    color: rgba(143, 149, 165, 1);
-    font-size: 14px;
-    font-weight: 400;
+.box span {
+  color: rgba(143, 149, 165, 1);
+  font-size: 14px;
+  font-weight: 400;
 }
-.box p{
-    color: rgba(38, 50, 56, 1);
-    font-size:20px;
-    font-weight: 600;
+.box p {
+  color: rgba(38, 50, 56, 1);
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.boxes .cost{
-    margin-top: 20px;
-    padding: 15px;
-    background: rgba(238, 238, 238, 1);
-    width:210px ;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    gap: 15px;
+.boxes .cost {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(238, 238, 238, 1);
+  width: 210px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  gap: 15px;
 }
-.cost h3{
-    color: rgba(38, 50, 56, 1);
-    font-size: 25px;
-    margin: 0;
+.cost h3 {
+  color: rgba(38, 50, 56, 1);
+  font-size: 25px;
+  margin: 0;
 }
