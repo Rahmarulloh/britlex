@@ -1,0 +1,59 @@
+.hero {
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .hero-context {
+  gap: 30px;
+  width: 50%;
+  display: grid;
+  place-items: start;
+  position: relative;
+}
+
+.hero .hero-context .hero-title {
+  display: grid;
+  place-items: start;
+  color: #000;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+.hero .hero-context svg {
+  top: 50px;
+  left: 60%;
+  position: absolute;
+}
+
+.hero .hero-context .hero-desc {
+  width: 100%;
+  color: #8f95a5;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  word-wrap: break-word;
+}
+
+.hero .hero-context .btn-hero {
+  border: none;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  padding: 32px 127px;
+  border-radius: 15px;
+  background: #263238;
+}
+
+.hero .hero-image {
+  width: 50%;
+}
+
+.hero .hero-image svg {
+  width: 100%;
+}
