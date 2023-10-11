@@ -10,8 +10,13 @@ class Navbar extends Component {
     return (
       <NavbarElm collapseOnSelect expand="lg" className="bg-body-white">
         <Container>
-          <NavbarElm.Brand href="#home">Britlex</NavbarElm.Brand>
-          <NavbarElm.Toggle aria-controls="responsive-navbar-nav" />
+          <NavbarElm.Brand href="#home">
+            Brit<span className="text-secondary">lex</span>
+          </NavbarElm.Brand>
+          <NavbarElm.Toggle
+            aria-controls="responsive-navbar-nav"
+            className="shadow-none border-0"
+          />
           <NavbarElm.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto">
               <Nav.Link href="#features">Home</Nav.Link>
