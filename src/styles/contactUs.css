@@ -1,12 +1,17 @@
 .contactUs {
   width: 100%;
+  margin: 261px 0 133px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .contactUs .contactUs-image {
-    width: 50%;
+  width: 50%;
+}
+
+.contactUs .contactUs-image svg {
+  width: 100%;
 }
 
 .contactUs .contactUs-context {
@@ -54,5 +59,145 @@
 }
 
 @media screen and (max-width: 992px) {
-    
+  .contactUs {
+    margin: 140px 0 157px;
+  }
+
+  .contactUs .contactUs-context {
+    gap: 30px;
+  }
+
+  .contactUs .contactUs-context .contactUs-title {
+    font-size: 36px;
+    line-height: 80px;
+  }
+
+  .contactUs .contactUs-context .contactUs-desc {
+    font-size: 16px;
+  }
+
+  .contactUs .contactUs-context .contactUs-form .form-email {
+    width: 323px;
+    height: 60px;
+    padding: 25px;
+    border-radius: 10px;
+  }
+
+  .contactUs .contactUs-context .contactUs-form .form-btn {
+    font-size: 16px;
+    padding: 15px 35px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 767.99px) {
+  .contactUs {
+    margin: 94px 0 112px;
+  }
+
+  .contactUs .contactUs-context {
+    gap: 25px;
+  }
+
+  .contactUs .contactUs-context .contactUs-title {
+    font-size: 30px;
+  }
+
+  .contactUs .contactUs-context .contactUs-desc {
+    font-size: 14px;
+  }
+
+  .contactUs .contactUs-context .contactUs-form .form-email {
+    width: 283px;
+    height: 50px;
+    padding: 25px;
+    border-radius: 5px;
+  }
+
+  .contactUs .contactUs-context .contactUs-form .form-btn {
+    font-size: 13px;
+    padding: 15px 40px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 575.99px) {
+  .contactUs {
+    gap: 60px;
+    position: relative;
+    flex-direction: column;
+    margin: 163px 0 144px;
+  }
+
+  .contactUs .contactUs-context {
+    width: 100%;
+    place-items: center;
+  }
+
+  .contactUs .contactUs-context .contactUs-title {
+    top: -20px;
+    position: absolute;
+  }
+
+  .contactUs .contactUs-context .contactUs-desc {
+    text-align: center;
+  }
+
+  .contactUs .contactUs-context .contactUs-form {
+    position: relative;
+  }
+
+  .contactUs .contactUs-context .contactUs-form .form-email {
+    width: 511px;
+    height: 60px;
+    padding: 20px 25px;
+    border-radius: 10px;
+  }
+
+  .contactUs .contactUs-context .contactUs-form .form-btn {
+    right: 0;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 20px 56px;
+    position: absolute;
+  }
+
+  .contactUs .contactUs-image {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+
+  .contactUs .contactUs-image div {
+    margin: 100px 0 0;
+  }
+
+  .contactUs .contactUs-image svg {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .contactUs {
+    margin: 77px 0 200px;
+  }
+
+  .contactUs .contactUs-context .contactUs-title {
+    font-size: 24px;
+  }
+
+  .contactUs .contactUs-context .contactUs-form .form-email {
+    width: 291px;
+    height: 50px;
+  }
+
+  .contactUs .contactUs-context .contactUs-form .form-btn {
+    top: 60px;
+    padding: 20px 105px;
+  }
+
+  .contactUs .contactUs-context div svg {
+    width: 253px !important;
+    height: 228px !important;
+  }
 }
