@@ -9,7 +9,7 @@ class AboutUs extends Component {
             <section className="aboutUs">
                 <div className="aboutUs-left">
                     <h2>About Us</h2>
-                    <p>The model offers a framework for discussing problems related <br /> to the user's experience, as well as possible ways and means of <br /> solving them. Application development begins at the top level <br /> (strategy), where the future software product is described quite <br /> abstractly from the point of view of the expectations of both <br /> users and the customer.
+                    <p>The model offers a framework for discussing problems related to the user's experience, as well as possible ways and means of solving them. Application development begins at the top level (strategy), where the future software product is described quite abstractly from the point of view of the expectations of both users and the customer.
                     </p>
                     <div className="aboutUs-nums">
                         <span>
