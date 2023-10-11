@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { HeroImg, LampImg } from "../img";
-import '../styles/hero.css';
+import "../styles/hero.css";
 
 export default class Hero extends Component {
   render() {
