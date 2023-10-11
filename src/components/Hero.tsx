@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { HeroImg, LampImg } from "../img";
-import '../styles/hero.css';
+import "../styles/hero.css";
 
 export default class Hero extends Component {
   render() {
@@ -12,6 +12,9 @@ export default class Hero extends Component {
             <span>Any Foreign</span>
             <span>Language</span>
           </h2>
+
+          <h2 className="hero-mb-title">Learn Any Foreign Language</h2>
+
           <LampImg />
           <p className="hero-desc">
             With our teachers who write a program for each student, you will be
