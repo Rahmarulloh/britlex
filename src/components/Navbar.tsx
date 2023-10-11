@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../styles/navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import NavbarElm from "react-bootstrap/Navbar";
 
@@ -18,11 +17,21 @@ class Navbar extends Component {
         />
         <NavbarElm.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="#features">Home</Nav.Link>
-            <Nav.Link href="#features">Skills</Nav.Link>
-            <Nav.Link href="#features">About Us</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <Nav.Link href="#pricing">Contacts</Nav.Link>
+            <Nav.Link className="mx-lg-2" href="#features">
+              Home
+            </Nav.Link>
+            <Nav.Link className="mx-lg-2" href="#features">
+              Skills
+            </Nav.Link>
+            <Nav.Link className="mx-lg-2" href="#features">
+              About Us
+            </Nav.Link>
+            <Nav.Link className="mx-lg-2" href="#pricing">
+              Pricing
+            </Nav.Link>
+            <Nav.Link className="mx-lg-2" href="#pricing">
+              Contacts
+            </Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#deets">
