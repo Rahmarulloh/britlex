@@ -10,8 +10,10 @@ class Header extends Component {
     return (
       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">Britlex</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Brand href="#home">
+            Brit<span className="text-secondary">lex</span>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" className="border-0 shadow-none"/>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto">
               <Nav.Link href="#features">Home</Nav.Link>
