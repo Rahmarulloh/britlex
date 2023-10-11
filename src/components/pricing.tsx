@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import "../styles/pricing.css"
 import img1 from "../img/Online test-bro 1.png"
 import img2 from "../img/Lesson-bro 1.png"
