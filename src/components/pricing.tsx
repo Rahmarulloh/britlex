@@ -19,7 +19,7 @@ class Pricing  extends React.Component {
                         </div>
                     </div>
                     <div className='box'>
-                        <img style={{marginBottom:50}} src={img2} alt="" />
+                        <img  className='img2' src={img2} alt="" />
                         <p>Live online classes</p>
                         <span>Interactive group classes with expert teachers. Free 7-day trial</span>
                         <div style={{marginTop:40}}  className='cost'>
