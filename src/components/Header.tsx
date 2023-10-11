@@ -21,8 +21,10 @@ class Header extends Component {
               <Nav.Link href="#pricing">Contacts</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="#deets">
-                <button className="btn btn-outline-dark px-4 py-2">Let's Talk</button>
+              <Nav.Link href="#linkTalk">
+                <button className="btn btn-outline-dark px-4 py-2">
+                  Let's Talk
+                </button>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
