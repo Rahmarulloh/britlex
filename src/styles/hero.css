@@ -26,7 +26,7 @@
 
 .hero .hero-context svg {
   top: 50px;
-  left: 60%;
+  left: 65%;
   position: absolute;
 }
 
@@ -56,4 +56,27 @@
 
 .hero .hero-image svg {
   width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .hero {
+    padding: 0;
+  }
+
+  .hero .hero-context {
+    gap: 20px;
+  }
+
+  .hero .hero-context .hero-title {
+    font-size: 48px;
+    line-height: 64px;
+  }
+
+  .hero .hero-context .hero-desc {
+    font-size: 20px;
+  }
+
+  .hero .hero-context .btn-hero {
+    padding: 22px 78px;
+  }
 }

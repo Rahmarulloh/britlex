@@ -5,7 +5,7 @@ import Hero from "./Hero";
 export default class Header extends Component {
   render() {
     return (
-      <div className="Header">
+      <div className="container-fluid">
         <Navbar />
         <Hero />
       </div>
