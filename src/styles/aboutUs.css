@@ -223,12 +223,6 @@
 }
 
 @media screen and (max-width: 320px) {
-    .aboutUs {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        margin-left: 50px;
-    }
 
     .aboutUs-main {
         display: flex;
