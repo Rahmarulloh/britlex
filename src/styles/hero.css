@@ -14,7 +14,8 @@
   position: relative;
 }
 
-.hero .hero-context .hero-title {
+.hero .hero-context .hero-title,
+.hero-mb-title {
   display: grid;
   place-items: start;
   color: #000;
@@ -22,6 +23,10 @@
   font-style: normal;
   font-weight: 600;
   line-height: 80px;
+}
+
+.hero .hero-context .hero-mb-title {
+  display: none;
 }
 
 .hero .hero-context svg {
@@ -85,6 +90,7 @@
   .hero .hero-context .btn-hero {
     font-size: 24px;
     padding: 22px 78px;
+    border-radius: 5px;
   }
 
   .hero .hero-image svg {
@@ -124,21 +130,68 @@
   }
 }
 
-@media screen and (max-width: 575px) {
-    .hero {
+@media screen and (max-width: 575.99px) {
+  .hero {
     flex-direction: column-reverse;
   }
 
   .hero .hero-context {
     width: 100%;
+    place-items: center;
   }
 
   .hero .hero-context .hero-title {
-    gap: 10px;
-    display: flex;
+    display: none;
+  }
+
+  .hero .hero-context .hero-mb-title {
+    display: block;
+    font-size: 34px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .hero .hero-context .hero-desc {
+    text-align: center;
   }
 
   .hero .hero-context svg {
     display: none;
+  }
+
+  .hero .hero-context .btn-hero {
+    font-weight: 500;
+    padding: 24px 101px;
+  }
+
+  .hero .hero-image {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+
+  .hero .hero-image svg {
+    width: 424px;
+    height: 424px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero .hero-context .hero-mb-title {
+    font-size: 24px;
+  }
+
+  .hero .hero-context .hero-desc {
+    font-size: 14px;
+  }
+
+  .hero .hero-context .btn-hero {
+    width: 100%;
+    padding: 18px 0;
+  }
+
+  .hero .hero-image svg {
+    width: 299px;
+    height: 299px;
   }
 }
