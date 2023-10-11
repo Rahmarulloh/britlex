@@ -6,7 +6,7 @@ import img3 from "../img/Webinar-bro 2.png"
 class Pricing  extends React.Component {
     render() { 
         return ( 
-            <div className='main'>
+            <div className='pricing'>
                 <h1>Pricing</h1>
                 <div className='boxes'>
                     <div className='box'>
@@ -32,7 +32,7 @@ class Pricing  extends React.Component {
                         <p>Personal Tuition</p>
                         <span>Online one-to-one English tutoring – enjoy our first session for only $1</span>
                         <div style={{marginTop:35}} className='cost'>
-                            <h3>  £20.99</h3>
+                            <h3>£20.99</h3>
                             <span> per month</span>
                         </div>
                     </div>  
