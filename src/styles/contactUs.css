@@ -1,0 +1,58 @@
+.contactUs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactUs .contactUs-image {
+    width: 50%;
+}
+
+.contactUs .contactUs-context {
+  gap: 40px;
+  width: 50%;
+  display: grid;
+  place-items: start;
+}
+
+.contactUs .contactUs-context .contactUs-title {
+  color: #000;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 80px; /* 166.667% */
+}
+
+.contactUs .contactUs-context .contactUs-desc {
+  color: #8f95a5;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.contactUs .contactUs-context .contactUs-form {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.contactUs .contactUs-context .contactUs-form .form-email {
+  width: 450px;
+  height: 80px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #8f95a5;
+}
+
+.contactUs .contactUs-context .contactUs-form .form-btn {
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 25px 81px;
+  border-radius: 10px;
+  background: #263238;
+}
+
+@media screen and (max-width: 992px) {
+    
+}

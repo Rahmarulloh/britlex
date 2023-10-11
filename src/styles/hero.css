@@ -125,8 +125,8 @@
   }
 
   .hero .hero-image svg {
-    width: 352px;
-    height: 352px;
+    width: 100%;
+    height: auto;
   }
 }
 
