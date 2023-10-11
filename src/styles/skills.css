@@ -7,3 +7,72 @@
 html {
   scroll-behavior: smooth;
 }
+
+.item1 {
+  grid-area: menu;
+}
+.item2 {
+  grid-area: main;
+}
+.item3 {
+  grid-area: right;
+}
+.item4 {
+  grid-area: footer;
+}
+
+.grid-item {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.grid-item img {
+  @media screen and (max-width: 768px) {
+    max-height: 350px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .imgOne,
+  .imgTwo,
+  .imgThree {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .imgFour {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.grid-container {
+  display: grid;
+  @media screen and (min-width: 768px) {
+    grid-template-areas:
+      "menu menu main main right right"
+      "menu menu main main right right"
+      "menu menu footer footer footer footer";
+  }
+
+  @media screen and (max-width: 768px) {
+    grid-template-areas:
+      "menu menu main main"
+      "menu menu main main"
+      "right right footer footer";
+  }
+
+  @media screen and (max-width: 576px) {
+    grid-template-areas:
+      "menu menu"
+      "right right"
+      "main main"
+      "footer footer";
+  }
+
+  gap: 10px;
+  background-color: inherit;
+}

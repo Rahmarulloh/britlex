@@ -1,24 +1,29 @@
 import React, { Component } from "react";
 import "../styles/skills.css";
+import bookshelves from "../img/House bookshelves-bro 1.png";
+import typeWriterBro from "../img/Typewriter-bro 1.png";
+import sharedGoals from "../img/Shared goals-bro 2.png";
+import podcast from "../img/Podcast audience-bro 1.png";
 
 export default class Skills extends Component {
   render() {
     return (
       <>
-        <h1 className="text-center my-4">Skills</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum
-          fugit quos architecto, ducimus harum tenetur repellat cumque voluptate
-          rem voluptatem minus sit eum dolores tempore perspiciatis neque, nulla
-          error repellendus soluta eius corrupti eveniet sequi? Fuga, dolor
-          deserunt qui saepe, modi unde velit nam optio temporibus nemo iusto!
-          Atque nam iure voluptas delectus libero labore possimus temporibus
-          fugiat? Aperiam vitae unde a officiis neque temporibus excepturi
-          accusamus laudantium, maxime officia quae fugit dolores, nisi
-          cupiditate beatae ab, sapiente quos illo. Quisquam veniam molestiae
-          doloremque, voluptates provident dignissimos, vel doloribus unde omnis
-          similique ea vero dicta enim corporis quia sit?
-        </p>
+        <h1 className="text-center my-4 fw-bold">Skills</h1>
+        <div className="grid-container">
+          <div className="grid-item bg-body-secondary item1">
+            <img src={sharedGoals} alt="sharedGoals" className="imgOne" />
+          </div>
+          <div className="grid-item bg-body-secondary item2">
+            <img src={typeWriterBro} alt="typeWriterBro" className="imgTwo" />
+          </div>
+          <div className="grid-item bg-body-secondary item3">
+            <img src={bookshelves} alt="bookshelves" className="imgThree" />
+          </div>
+          <div className="grid-item bg-body-secondary item4">
+            <img src={podcast} alt="podcast" className="imgFour" />
+          </div>
+        </div>
       </>
     );
   }
