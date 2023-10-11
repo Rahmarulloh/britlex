@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+  margin: 96px 0;
+}
+
 .item1 {
   grid-area: menu;
 }

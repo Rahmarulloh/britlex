@@ -9,7 +9,7 @@ export default class Skills extends Component {
   render() {
     return (
       <>
-        <h1 className="text-center my-4 fw-bold">Skills</h1>
+        <h1 className="text-center fw-bold">Skills</h1>
         <div className="grid-container">
           <div className="grid-item bg-body-secondary item1">
             <img src={sharedGoals} alt="sharedGoals" className="imgOne" />
