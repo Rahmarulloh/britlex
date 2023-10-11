@@ -11,7 +11,7 @@
     align-self: center;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 110px;
 }
 
 .aboutUs-left {
@@ -34,16 +34,16 @@
 }
 
 .aboutUs p {
-  color: #8f95a5;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: normal;
+    color: #8f95a5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .aboutUs-nums {
-  display: flex;
-  align-items: center;
-  gap: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
 .aboutUs-nums span {
@@ -55,17 +55,17 @@
 }
 
 .aboutUs-nums span strong {
-  color: #2a3246;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 80px;
+    color: #2a3246;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
 }
 
 .aboutUs-nums span p {
-  color: #8f95a5;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: normal;
+    color: #8f95a5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .aboutUs-right img {
@@ -75,6 +75,10 @@
 }
 
 @media screen and (max-width: 1100px) {
+    .aboutUs {
+        width: 100%;
+    }
+
     .aboutUs-left p {
         font-size: 16px;
     }
@@ -136,8 +140,36 @@
     }
 
     .aboutUs-right img {
-        width: 295px;
-        height: 295px;
+        width: 290px;
+        height: 290px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 676px) {
+    .aboutUs-main {
+        gap: 20px;
+    }
+
+    .aboutUs-left h2 {
+        font-size: 28px;
+    }
+
+    .aboutUs-left p {
+        font-size: 12px;
+    }
+
+    .aboutUs-left span strong {
+        font-size: 22px;
+    }
+
+    .aboutUs-left span p {
+        font-size: 13px;
+    }
+
+    .aboutUs-right img {
+        width: 280px;
+        height: 280px;
         object-fit: cover;
     }
 }
@@ -146,6 +178,8 @@
     .aboutUs-main {
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
         gap: 0px;
     }
 
@@ -157,6 +191,11 @@
         transform: translateX(0px) translateY(0px);
         text-align: center;
         font-size: 30px;
+    }
+
+    .aboutUs-nums {
+        align-self: center;
+        gap: 40px;
     }
 
     .aboutUs-left {
@@ -184,20 +223,17 @@
 }
 
 @media screen and (max-width: 320px) {
+
     .aboutUs-main {
         display: flex;
         flex-direction: column-reverse;
         gap: 0px;
     }
 
-    .aboutUs-headline {
-        align-items: center;
-    }
-
     .aboutUs-headline h2 {
         transform: translateX(0px) translateY(0px);
         text-align: center;
-        font-size: 24px;
+        font-size: 20.5px;
     }
 
     .aboutUs-left {
@@ -205,7 +241,7 @@
     }
 
     .aboutUs-left p {
-        font-size: 13px;
+        font-size: 14px;
         text-align: center;
     }
 

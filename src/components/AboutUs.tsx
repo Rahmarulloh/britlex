@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../styles/aboutUs.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AboutUsImg from "../img/aboutUsImg.png";
+
 class AboutUs extends Component {
     render(): React.ReactNode {
         return (
